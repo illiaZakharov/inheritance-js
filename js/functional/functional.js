@@ -2,8 +2,8 @@ import { Vehicle } from './Vehicle.js';
 import { Car } from './Car.js';
 import { Bicycle } from './Bicycle.js';
 
-const bmw = new Car(220, 'blue', 100, 'BMW');
-const mercedes = new Car(210, 'grey', 10, 'Mercedes');
+const bmw = Car(220, 'blue', 100, 'BMW');
+const mercedes = Car(210, 'grey', 10, 'Mercedes');
 const bike = Bicycle(40, 'green', 2);
 
 console.group(`Function`);
